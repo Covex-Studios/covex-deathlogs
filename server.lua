@@ -45,7 +45,7 @@ function getDiscordMention(id)
     local identifiers = GetPlayerIdentifiers(id)
     for _, v in ipairs(identifiers) do
         if string.sub(v, 1, 8) == "discord:" then
-            return "<@"..string.sub(v, 9)..">"
+            return '<@' .. string.sub(v, 9) .. '>'
         end
     end
     return "`Not Linked`"
