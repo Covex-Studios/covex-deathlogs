@@ -18,7 +18,7 @@ A standalone FiveM (GTA V) server script that automatically logs player deaths (
 
 1. **Download or clone this repository**
     ```
-    git clone https://github.com/YourUsername/your-repo-name.git
+    git clone https://github.com/Covex-Studios/covex-deathlogs.git
     ```
 
 2. **Place the resource folder** (e.g. `covex_deathlogs`) in your server's `resources` directory.
@@ -46,7 +46,4 @@ A standalone FiveM (GTA V) server script that automatically logs player deaths (
 - Suicides and NPC deaths send a simple embed with only the victim info.
 - If killed by another player, both victim and killer info—including **all identifiers**—are shown in the Discord embed.
 
----
-
-## Example: Suicide/NPC Death
 
